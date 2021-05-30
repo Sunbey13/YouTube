@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-button{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 20px;
+    height: 17px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer;
+}
+
+.menu-line{
+    border-radius: 20px;
+    display: block;
+    background: #1F2022;
+    width: 20px;
+    height: 3px;
+}
+
+.logo{
+    margin-right: 50px;
+}
+
+.input-group{
+    background: #EBEBEB;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17px;
+    max-width: 830px;
+    width: 60%;
+}
+
+.input-search{
+    background-color: transparent;
+    border: none;
+    padding-left: 23px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+}
+
+.button-search{
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.icon-search{
+    fill: #000;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icons-link{
+    text-decoration: none;
+    opacity: 0.24;
+}
+
+.icons-link:hover{
+    opacity: 0.7;
+}
+
+.icons-link:not(:last-child){
+    margin-right: 50px;
+}
+
+.user{
+    margin-left: 45px;
+}
+
+.user-avatar{
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.user-avatar:hover{
+    border: 1px solid #ff0000;
+}
+
+.sidebar{
+    padding-left: 32px;
+}
+
+.nav-menu{
+    margin-top: 0;
+    margin-bottom: 60px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-item{
+    margin-bottom: 28px;
+}
+
+.nav-link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #898989;
+}
+
+.nav-link:hover{
+    color: #ff0000;
+}
+
+.nav-link:hover .icon{
+    fill: #ff0000;
+}
+
+.nav-item .icon{
+    fill: #898989;
+}
+
+.nav-text{
+    margin-left: 13px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-image{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+}
+
+.nav-link:hover .nav-image{
+    border: 1px solid #ff0000;
+}
+
+.nav-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
