@@ -1,3 +1,3 @@
-# YouYube
+# YouTube
 
 Лендинг YouTube
