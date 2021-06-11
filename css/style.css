@@ -340,6 +340,7 @@ body{
 
 .recommended-channel{
     display: flex;
+    flex-direction: row;
     align-items: center;
     padding-bottom: 30px;
     padding-right: 150px;
@@ -390,6 +391,10 @@ body{
 }
 
 @media(max-width: 640px){
+    .header{
+        padding-right: 32px;
+    }
+
     .swiper-wrapper{
         display: flex;
         flex-direction: column;
@@ -490,16 +495,22 @@ body{
 
     .recommended-channel{
         padding-right: 0;
+        flex-direction: column;
+        align-items: start;
     }
 
     .channel-help-info{
         max-width: 170px;
+        margin-top: 10px;
+        margin-left: 0;
     }
 
     .button-subscribe{
         font-size: 12px;
         line-height: 15px;
         min-width: 130px;
+        margin-top: 10px;
+        margin-left: 0;
     }
 }
 
